@@ -44,6 +44,5 @@ export class ToDo {
 
     sortTask(type) {
         type === 'asc' ? this.arrTask = _.orderBy(this.arrTask, ['newTask'], ['asc']) : this.arrTask = _.orderBy(this.arrTask, ['newTask'], ['desc']);
-        console.log(this.arrTask);
     }
 }
